@@ -1,0 +1,5 @@
+---
+footer:
+- url: "/footer"
+  weight: 1
+  title: Footer 1
