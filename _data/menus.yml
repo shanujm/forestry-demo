@@ -1,5 +1,9 @@
 ---
 footer:
 - url: "/footer"
-  weight: 1
+  weight: 2
   title: Footer 1
+navigation:
+- weight: 3
+  url: http://itta.in
+  title: 'Edit '
