@@ -5,3 +5,32 @@ fields:
 - type: file
   name: article_image
   label: Article image
+- type: text
+  name: article_headline
+  label: Article Headline
+  config:
+    required: true
+- type: textarea
+  name: body_text
+  label: Body text
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: field_group
+  name: button_name
+  label: Repeatable field group
+  hidden: false
+- type: field_group
+  name: field_group
+  label: Field group
+- type: image_gallery
+  name: gallery_multiple_upload
+  label: Gallery multiple upload
+- type: list
+  name: sortable_list
+  label: sortable list
+  config:
+    use_select: false
+    source:
+      type: simple
