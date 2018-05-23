@@ -1,0 +1,7 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: file
+  name: article_image
+  label: Article image
