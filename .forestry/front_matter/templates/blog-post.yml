@@ -34,3 +34,5 @@ fields:
     use_select: false
     source:
       type: simple
+pages:
+- _posts/sample-post-2.html
